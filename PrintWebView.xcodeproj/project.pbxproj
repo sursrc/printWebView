@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6321CA3163A22BD005B89AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6321CA2163A22BD005B89AF /* UIKit.framework */; };
+		D6321CA5163A22BD005B89AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6321CA4163A22BD005B89AF /* Foundation.framework */; };
+		D6321CA7163A22BD005B89AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6321CA6163A22BD005B89AF /* CoreGraphics.framework */; };
+		D6321CAD163A22BD005B89AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6321CAB163A22BD005B89AF /* InfoPlist.strings */; };
+		D6321CAF163A22BD005B89AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6321CAE163A22BD005B89AF /* main.m */; };
+		D6321CB3163A22BD005B89AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6321CB2163A22BD005B89AF /* AppDelegate.m */; };
+		D6321CB5163A22BD005B89AF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D6321CB4163A22BD005B89AF /* Default.png */; };
+		D6321CB7163A22BD005B89AF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6321CB6163A22BD005B89AF /* Default@2x.png */; };
+		D6321CB9163A22BD005B89AF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6321CB8163A22BD005B89AF /* Default-568h@2x.png */; };
+		D6321CC3163A3DD6005B89AF /* MyWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6321CC2163A3DD6005B89AF /* MyWebViewController.m */; };
+		D6321CC5163A5F91005B89AF /* MyWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6321CC4163A5F91005B89AF /* MyWebViewController.xib */; };
+		D6321CC9163A612D005B89AF /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6321CC8163A612D005B89AF /* MainWindow.xib */; };
+		D6321CCD163A6978005B89AF /* MyPrintPageRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = D6321CCC163A6977005B89AF /* MyPrintPageRenderer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D6321C9E163A22BD005B89AF /* PrintWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrintWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6321CA2163A22BD005B89AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D6321CA4163A22BD005B89AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D6321CA6163A22BD005B89AF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D6321CAA163A22BD005B89AF /* PrintWebView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrintWebView-Info.plist"; sourceTree = "<group>"; };
+		D6321CAC163A22BD005B89AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D6321CAE163A22BD005B89AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6321CB0163A22BD005B89AF /* PrintWebView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PrintWebView-Prefix.pch"; sourceTree = "<group>"; };
+		D6321CB1163A22BD005B89AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6321CB2163A22BD005B89AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6321CB4163A22BD005B89AF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D6321CB6163A22BD005B89AF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D6321CB8163A22BD005B89AF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D6321CC1163A3D90005B89AF /* MyWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyWebViewController.h; sourceTree = "<group>"; };
+		D6321CC2163A3DD6005B89AF /* MyWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWebViewController.m; sourceTree = "<group>"; };
+		D6321CC4163A5F91005B89AF /* MyWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyWebViewController.xib; sourceTree = "<group>"; };
+		D6321CC8163A612D005B89AF /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		D6321CCA163A6469005B89AF /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		D6321CCB163A68F4005B89AF /* MyPrintPageRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPrintPageRenderer.h; sourceTree = "<group>"; };
+		D6321CCC163A6977005B89AF /* MyPrintPageRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPrintPageRenderer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6321C9B163A22BD005B89AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6321CA3163A22BD005B89AF /* UIKit.framework in Frameworks */,
+				D6321CA5163A22BD005B89AF /* Foundation.framework in Frameworks */,
+				D6321CA7163A22BD005B89AF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6321C93163A22BD005B89AF = {
+			isa = PBXGroup;
+			children = (
+				D6321CA1163A22BD005B89AF /* Frameworks */,
+				D6321CA8163A22BD005B89AF /* PrintWebView */,
+				D6321C9F163A22BD005B89AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6321C9F163A22BD005B89AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6321C9E163A22BD005B89AF /* PrintWebView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6321CA1163A22BD005B89AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6321CA2163A22BD005B89AF /* UIKit.framework */,
+				D6321CA4163A22BD005B89AF /* Foundation.framework */,
+				D6321CA6163A22BD005B89AF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6321CA8163A22BD005B89AF /* PrintWebView */ = {
+			isa = PBXGroup;
+			children = (
+				D6321CCA163A6469005B89AF /* Constants.h */,
+				D6321CB1163A22BD005B89AF /* AppDelegate.h */,
+				D6321CB2163A22BD005B89AF /* AppDelegate.m */,
+				D6321CC1163A3D90005B89AF /* MyWebViewController.h */,
+				D6321CC2163A3DD6005B89AF /* MyWebViewController.m */,
+				D6321CCB163A68F4005B89AF /* MyPrintPageRenderer.h */,
+				D6321CCC163A6977005B89AF /* MyPrintPageRenderer.m */,
+				D6321CA9163A22BD005B89AF /* Supporting Files */,
+			);
+			path = PrintWebView;
+			sourceTree = "<group>";
+		};
+		D6321CA9163A22BD005B89AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6321CAA163A22BD005B89AF /* PrintWebView-Info.plist */,
+				D6321CAB163A22BD005B89AF /* InfoPlist.strings */,
+				D6321CAE163A22BD005B89AF /* main.m */,
+				D6321CB0163A22BD005B89AF /* PrintWebView-Prefix.pch */,
+				D6321CB4163A22BD005B89AF /* Default.png */,
+				D6321CB6163A22BD005B89AF /* Default@2x.png */,
+				D6321CB8163A22BD005B89AF /* Default-568h@2x.png */,
+				D6321CC8163A612D005B89AF /* MainWindow.xib */,
+				D6321CC4163A5F91005B89AF /* MyWebViewController.xib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6321C9D163A22BD005B89AF /* PrintWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6321CBC163A22BD005B89AF /* Build configuration list for PBXNativeTarget "PrintWebView" */;
+			buildPhases = (
+				D6321C9A163A22BD005B89AF /* Sources */,
+				D6321C9B163A22BD005B89AF /* Frameworks */,
+				D6321C9C163A22BD005B89AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrintWebView;
+			productName = PrintWebView;
+			productReference = D6321C9E163A22BD005B89AF /* PrintWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6321C95163A22BD005B89AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Joseph Steve";
+			};
+			buildConfigurationList = D6321C98163A22BD005B89AF /* Build configuration list for PBXProject "PrintWebView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D6321C93163A22BD005B89AF;
+			productRefGroup = D6321C9F163A22BD005B89AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6321C9D163A22BD005B89AF /* PrintWebView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6321C9C163A22BD005B89AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6321CAD163A22BD005B89AF /* InfoPlist.strings in Resources */,
+				D6321CB5163A22BD005B89AF /* Default.png in Resources */,
+				D6321CB7163A22BD005B89AF /* Default@2x.png in Resources */,
+				D6321CB9163A22BD005B89AF /* Default-568h@2x.png in Resources */,
+				D6321CC5163A5F91005B89AF /* MyWebViewController.xib in Resources */,
+				D6321CC9163A612D005B89AF /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6321C9A163A22BD005B89AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6321CAF163A22BD005B89AF /* main.m in Sources */,
+				D6321CB3163A22BD005B89AF /* AppDelegate.m in Sources */,
+				D6321CC3163A3DD6005B89AF /* MyWebViewController.m in Sources */,
+				D6321CCD163A6978005B89AF /* MyPrintPageRenderer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D6321CAB163A22BD005B89AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6321CAC163A22BD005B89AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6321CBA163A22BD005B89AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D6321CBB163A22BD005B89AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6321CBD163A22BD005B89AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrintWebView/PrintWebView-Prefix.pch";
+				INFOPLIST_FILE = "PrintWebView/PrintWebView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D6321CBE163A22BD005B89AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrintWebView/PrintWebView-Prefix.pch";
+				INFOPLIST_FILE = "PrintWebView/PrintWebView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6321C98163A22BD005B89AF /* Build configuration list for PBXProject "PrintWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6321CBA163A22BD005B89AF /* Debug */,
+				D6321CBB163A22BD005B89AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6321CBC163A22BD005B89AF /* Build configuration list for PBXNativeTarget "PrintWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6321CBD163A22BD005B89AF /* Debug */,
+				D6321CBE163A22BD005B89AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6321C95163A22BD005B89AF /* Project object */;
+}
